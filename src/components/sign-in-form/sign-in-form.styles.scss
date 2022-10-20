@@ -8,5 +8,9 @@
   .buttons-container{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    button{
+      flex: 1;
+    }
   }
 }
