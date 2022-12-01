@@ -21,7 +21,7 @@ const Navigation =  () => {
                 <NavLinks>
                     <NavLink to='/shop'>Shop</NavLink>
                     {
-                        currentUser ? <NavLink as='span' className='nav-link' onClick={signOutUser}>Sign Out</NavLink> : <NavLink to='/sign-in' className='nav-link'>Sign In</NavLink>
+                        currentUser ? <NavLink as='span' className='nav-link' onClick={signOutUser}>Sign Out</NavLink> : <NavLink to='/auth' className='nav-link'>Sign In</NavLink>
                     }
                     <CartIcon />
                 </NavLinks>
