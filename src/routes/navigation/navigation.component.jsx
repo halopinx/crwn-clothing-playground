@@ -11,11 +11,10 @@ import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component
 const Navigation =  () => {
     const {currentUser} = useContext(UserContext)
     const {isCartOpen} = useContext(CartContext)
-    console.log(currentUser)
     return (
         <Fragment>
             <NavigationContainer>
-               <LogoContainer>
+               <LogoContainer to='/'>
                    <CrwnLogo className='logo' />
                </LogoContainer>
                 <NavLinks>
